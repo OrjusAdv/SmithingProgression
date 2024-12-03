@@ -1,0 +1,16 @@
+starting_perks:
+  smithing_stoneexpmultiplier_add: -0.8 # stone grants 80% reduced exp
+  smithing_chainexpmultiplier_add: -0.8 # chain grants 80% reduced exp
+  smithing_goldexpmultiplier_add: -0.9 # gold grants 90% reduced exp
+  smithing_ironexpmultiplier_add: -0.9 # iron grants 90% reduced exp
+  smithing_diamondexpmultiplier_add: -0.95 # diamond grants 95% reduced exp
+  smithing_netheriteexpmultiplier_add: -1 # netherite grants nothing
+
+experience:
+  exp_level_curve: '(%level% + 150 * 2^(%level%/8.2)) + 600'
+  max_level: 100
+  durability_tools_exp_multiplier_stack: 0.005 # Reduce tools bonus to +0.5% per stack
+  durability_tools_exp_multiplier_maximum: 500 # Cap tools bonus at +500%
+  durability_armors_exp_multiplier_stack: 0.0025 # Reduce armors bonus to +0.25% per stack
+  durability_armors_exp_multiplier_maximum: 100 # Cap armors bonus at +100%
+  durability_chunk_limit: 20 # Only 20 stacks per chunk allowed
